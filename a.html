@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selector Demo</title>
+    <style>
+        /* Universal selector */
+        * {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightcyan;
+        }
+
+        /* Element selector */
+        p {
+            background-color: rgb(200, 50, 100);
+            color: rgb(255, 255, 0);
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        /* ID selector */
+        #mainTitle {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        /* Class selector */
+        .highlight {
+            background-color: darkorange;
+            color: white;
+            padding: 5px;
+        }
+
+        /* Group selector */
+        h3,
+        h4 {
+            background-color: lightblue;
+            color: navy;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1 id="mainTitle">CSS Selector Demonstration</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2 style="background-color: rgb(150, 200, 250);">Inline CSS Example</h2>
+            <p style="background-color: lightpink;">Alice</p>
+            <p style="background-color: rgb(120, 250, 180);">Bob</p>
+            <p>Charlie, Diana, Ethan</p>
+        </section>
+
+        <section>
+            <h2 id="subTitle">Using ID Selector</h2>
+            <h2 class="highlight">Using Class Selector</h2>
+            <h2 class="note" style="background-color: lightgreen;">Learning HTML & CSS</h2>
+        </section>
+
+        <section>
+            <h3>Using Group Selector</h3>
+            <h4>Internal CSS Styling</h4>
+            <p>made by jasmehar hello and bye.</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>special thanks to my mom me and my teacher</p>
+    </footer>
+
+</body>
+
+</html>
